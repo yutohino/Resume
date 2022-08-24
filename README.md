@@ -228,8 +228,6 @@ Googleのガイドラインに「Androidアプリの初回起動時に利用規�
 - Adobe XD
 - Microsoft Teams
 - Mattermost
-- Backlog
-- Redmine
 
 #### 学んだこと
 ##### Androidアプリ開発の基礎技術の習熟

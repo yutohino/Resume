@@ -2,7 +2,7 @@
 
 ## PR
 大学在学中にプログラミング・ITエンジニア転職がブームになったことをきっかけに、プログラミングに興味を持つようになり、休学して独学でPHPでのWebアプリとAndroidアプリを制作しました。  
-独学後に、都内の受託開発企業にてラジオストリーミングアプリのAndroidアプリ開発をおよそ半年間、アルバイトとして従事しました。  
+2020年に、都内の受託開発企業にてラジオストリーミングアプリのAndroidアプリ開発をおよそ半年間、アルバイトとして従事しました。  
 その後、AIチャットボットを提供しているベンチャー企業の受託開発部門にて、Androidのビジネスチャットアプリの開発に約1年間、業務委託で携わりました。  
 直近のプロジェクトでは、Javaを使った自動車運転免許の管理システムのバックエンド開発に4ヶ月間、SESとして従事しました。  
 
@@ -12,48 +12,13 @@
 
 ## スキルセット
 ### 言語
-- Android Java(上級)
-- Java(中級)
+Android Java(上級) | Java(中級)
 
-### Webフレームワーク
-- Spring Boot(4ヶ月)
+### フレームワーク
+Spring Boot(中級)
 
-### DB
-- SQLite
-- Realm
-- Oracle DataBase
-
-### ツール
-#### 【ソースコード管理】
-- GitHub
-- GitLab
-- Bitbucket
-
-#### 【コミュニケーション】
-- Slack
-- Microsoft Teams
-- Mattermost
-
-#### 【タスク管理】
-- Backlog
-- Redmine
-
-#### 【デザイン】
-- Adobe XD
-- Sketch
-
-## 職務経歴
-2020年1月 株式会社qnote アルバイト入社  
-2020年5月 株式会社qnote アルバイト退社  
-2020年7月 モビルス株式会社 業務委託入社  
-2021年9月 モビルス株式会社 業務委託退社  
-2022年3月 株式会社Connectete 入社  
-2022年6月 株式会社Connectete 退社  
-
-## 最終学歴
-高校卒業(大学中退)
-
-
+### RDB/NoSQL
+SQLite | Realm | Oracle DB
 
 ## プロジェクト
 ### 自動車運転免許システムの開発支援
@@ -83,16 +48,7 @@
 テストの実施対象は修正箇所だけであまり多くなかったため、JUnitは使わず手動でEclipseのデバッグモードを用いて実施。JaCoCoでカバレッジを取得し、テスト実施のエビデンスとしてサーバーログ、修正箇所のスクリーンショット等をExcelに記録した。
 
 #### 使用した技術・ツール
-- Java(Spring Boot)
-- Eclipse
-- Visual Studio Code
-- Oracle DataBase
-- JBoss
-- JaCoCo
-- GitLab
-- Subversion
-- Microsoft Teams
-- Redmine
+Java(Spring Boot) | Oracle DB | JBoss | JaCoCo | GitLab | Subversion | Microsoft Teams | Redmine
 
 #### 工夫したこと
 ##### 他のメンバーのタスク支援
@@ -154,16 +110,7 @@ UIリニューアルに合わせて新規画面遷移図が必要になったた
 アプリの画面のスクリーンショットを用いて、Excelで画面遷移図を作成。
 
 #### 使用した技術・ツール
-- Android Java
-- Android Studio
-- SQLite
-- SkyWay
-- Espresso
-- Bitbucket
-- Sketch
-- Slack
-- Backlog
-- Redmine
+Android Java | Android Studio | SQLite | SkyWay | Espresso | Bitbucket | Sketch | Slack | Backlog | Redmine
 
 #### 学んだこと
 ##### チケット制の理解
@@ -221,13 +168,7 @@ Googleのガイドラインに「Androidアプリの初回起動時に利用規�
 新たにジャンル検索用の画面を作成し、各ジャンル名のタブを画面上部に配置し、選択したジャンルのラジオ番組が一覧で表示されるように実装。
 
 #### 使用した技術・ツール
-- Android Java
-- Android Studio
-- Realm
-- GitLab
-- Adobe XD
-- Microsoft Teams
-- Mattermost
+Android Java | Android Studio | Realm | GitLab | Adobe XD | Microsoft Teams | Mattermost
 
 #### 学んだこと
 ##### Androidアプリ開発の基礎技術の習熟

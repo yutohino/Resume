@@ -2,7 +2,7 @@ name: Convert Markdown to PDF
 
 on:
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   build:

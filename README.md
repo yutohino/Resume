@@ -1,9 +1,6 @@
 # 職務経歴書
 
 ## PR
-大学在学中にプログラミングに興味を持ち、KotlinでのAndroidアプリ開発を通じて、エンジニアとしてのキャリアをスタートしました。
-その後、都内の受託開発企業で半年間のアルバイトを経て、AIチャットボットを提供するベンチャー企業の受託開発部門に参画し、Androidのビジネスチャットアプリ開発に従事しました。現在はFlutterを用いて、建設業向けの施工管理サービスのアプリ開発に携わっています。
-
 FlutterとAndroidのモバイルアプリ開発を得意としており、詳細設計からリリース・運用保守の工程までの業務フローを経験し、既存機能の改修および新規機能開発の経験があります。
 
 未経験の技術に対しても、キャッチアップしながら業務を進めることが可能です。例として、施工管理サービスのアプリ開発ではFlutter・GraphQL・iOSが未経験だったため、プロジェクト参画から1ヶ月以内に基礎を理解し、タスクを遂行できるようになりました。また、ビジネスチャットアプリの開発でUIテストの自動化について、自身で公式ドキュメント等を調べながら実装しました。
@@ -21,7 +18,7 @@ Flutter | Spring Boot
 SQLite | Realm | Oracle DB | Firestore | GraphQL
 
 ### クラウド
-Firebase(Firestore, Storage, Authentication)
+Firebase(Firestore, Storage, Authentication, App Distribution, Crashlytics, Remote Config)
 
 ## 主な業務経歴
 ### 建設業向け施工管理サービスのモバイルアプリ開発(2022/12 - 現在)
@@ -36,7 +33,7 @@ Flutter2名、バックエンド&フロントエンド2名、デザイナー1名
 アプリ開発（Flutter）
 
 【使用した技術・ツール】  
-Flutter | Provider | Hive | Android Studio | Xcode | GraphQL | GitHub | Figma | Slack | Notion | Zenhub
+Flutter | Provider | Hive | Android Studio | Xcode | GraphQL | Firebase | Sentry | GitHub | Figma | Slack | Notion | Zenhub
 
 【担当業務】  
 
@@ -46,7 +43,7 @@ Flutter | Provider | Hive | Android Studio | Xcode | GraphQL | GitHub | Figma | 
 - 統合テストの項目作成および実施。
 
 #### 学んだこと
-- Flutterの基本的な実装方法の理解し、1人でタスクの遂行ができるようになった。
+- Flutterの基本的な実装方法を理解し、1人でタスクの遂行ができるようになった。
 - Android・iOSアプリのリリース手順を理解した。
 - UI/UXデザインの基礎を書籍で学習し、デザインの改善案やアイデア出しができるようになった。
 - 顧客への説明資料作成や不具合報告の対応を通じて、ステークホルダーに分かりやすく技術的な情報を伝える能力が向上し、顧客との円滑なコミュニケーションが取れるようになった。

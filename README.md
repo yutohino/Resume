@@ -21,7 +21,7 @@ SQLite | Realm | Oracle DB | Firestore | GraphQL
 Firebase(Firestore, Storage, Authentication, App Distribution, Crashlytics, Remote Config)
 
 ## 主な業務経歴
-### 建設業向け施工管理サービスのモバイルアプリ開発(2022/12 - 現在)
+### 建設業向け施工管理サービスのモバイルアプリ開発(2022/12 - 2024/03)
 
 【プロジェクト概要】  
 建設業向け施工管理サービスのモバイルアプリの新規機能開発、運用保守。

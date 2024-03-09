@@ -93,7 +93,7 @@ Java(Spring Boot) | Oracle DB | JBoss | JaCoCo | GitLab | Subversion | Microsoft
 ビジネスチャットのモバイルアプリのUIリニューアル、新規機能実装、UIテストの自動化。
 
 【チーム情報】  
-Android3名、iOS3名、バックエンド、ディレクター1名（全8名）
+Android2名、iOS2名、バックエンド1名、ディレクター1名（全6名）
 
 【担当役割】  
 アプリ開発（Android）

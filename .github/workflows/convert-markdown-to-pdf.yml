@@ -33,7 +33,7 @@ jobs:
 
       # カレントディレクトリ配下の.mdファイルを.pdfファイルへ変換する
       - name: Convert markdown to pdf
-        run: npx md-to-pdf ./*.md
+        run: npx md-to-pdf ./*.md --launch-options.args="--no-sandbox"
 
       # 新規作成もしくは更新されたPDFファイルを自動コミットする
       - name: Commit output pdf files

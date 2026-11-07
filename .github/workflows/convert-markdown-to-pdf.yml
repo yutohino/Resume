@@ -3,42 +3,38 @@ name: Convert Markdown to PDF
 on:
   push:
     branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [18.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       # 変換するマークダウンに日本語が含まれる場合、日本語フォントをインストールする必要あり
       - name: Install Japanese font
-        run: sudo apt install fonts-ipafont fonts-ipaexfont
+        run: sudo apt-get update && sudo apt-get install -y fonts-ipafont fonts-ipaexfont
 
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+      - name: Use Node.js 22.x
+        uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 22.x
+          cache: npm
 
-      - name: npm install, build
-        run: |
-          npm ci
-          npm run build --if-present          
+      - name: npm install
+        run: npm ci
 
-      # カレントディレクトリ配下の.mdファイルを.pdfファイルへ変換する
+      # カレントディレクトリ配下の README.md を README.pdf へ変換する
       - name: Convert markdown to pdf
-        env:
-          PUPPETEER_ARGS: "--no-sandbox"
-        run: npx md-to-pdf ./*.md
+        run: npm run generate-pdf
 
       # 新規作成もしくは更新されたPDFファイルを自動コミットする
       - name: Commit output pdf files
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update output pdf files

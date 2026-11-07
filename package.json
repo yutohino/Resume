@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "職務経歴書を作成",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "generate-pdf": "node scripts/generate-pdf.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/yutohino/Resume#readme",
   "dependencies": {
-    "md-to-pdf": "^5.2.0"
+    "github-markdown-css": "^5.9.0",
+    "marked": "^18.1.3",
+    "puppeteer": "^25.16.0"
   }
 }
